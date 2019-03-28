@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context=".DebateComp">
+
+    <android.support.design.widget.AppBarLayout
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:fitsSystemWindows="true"
+            android:layout_height="350dp">
+
+            <ImageView
+                app:layout_collapseMode="parallax"
+                android:src="@drawable/poster"
+                android:contentDescription="Debate Competition"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="350dp" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbardebate"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:title="Debate Competition"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_marginBottom="16dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="12dp"
+                    android:padding="12dp"
+                    android:textColor="#000"
+                    android:text="Heritage Utsav Debate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_margin="3dp"
+                        android:textColor="#000"
+                        android:text="Time and Venue: 2PM-5PM | SVA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_margin="3dp"
+                        android:textColor="#000"
+                        android:text="Organised by: Heritage Debating Society"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_margin="3dp"
+                        android:textColor="#000"
+                        android:text="Number of Participants:2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_margin="3dp"
+                        android:textColor="#000"
+                        android:text="Registration fee:200 per team.(for non-HITK)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_margin="3dp"
+                        android:textColor="#000"
+                        android:text="POC: Snehil Khemka | Rahul Agarwal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="12dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text=" Format: Modified Conventional."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textSize="13sp"
+                        android:layout_marginTop="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Rules:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:lineSpacingExtra="3dp"
+                        android:lineSpacingMultiplier="1.2"
+                        android:layout_marginTop="3dp"
+                        android:textAlignment="textStart"
+                        android:text="@string/debate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/regdebsoc"
+                        android:text="Register"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/Yellow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

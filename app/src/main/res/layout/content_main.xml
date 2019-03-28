@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:background="@color/Black"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/sliderDots"
+        android:layout_below="@+id/viewPager"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_below="@id/sliderDots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/registrationImage"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/registrations"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_height="0dp" />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/eventsImage"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/eventss"
+            android:scaleType="fitXY"
+            android:layout_margin="4dp"
+            android:layout_below="@+id/registrationImage"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.college.heritageutsav">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Technical.Blood"></activity>
+        <activity android:name=".Cultural.SixtySeconds" />
+        <activity android:name=".Cultural.Resonanace.CollegeBandAntak" />
+        <activity android:name=".Technical.FlipItUp" />
+        <activity android:name=".Technical.XWings" />
+        <activity android:name=".Cultural.FashionShow" />
+        <activity android:name=".Cultural.Pravasana.ShobChoritroKalponik" />
+        <activity android:name=".Cultural.Pravasana.Shutter" />
+        <activity android:name=".Cultural.Pravasana.KyaKhayalHai" />
+        <activity android:name=".Cultural.Pravasana.ShutterIsland" />
+        <activity android:name=".Cultural.Pravasana.Kahaani" />
+        <activity android:name=".Cultural.Pravasana.ChotoderChobi" />
+        <activity android:name=".Cultural.Pravasana.BaarBaarDekho" />
+        <activity android:name=".Cultural.Pravasana.ChayaOChobi" />
+        <activity android:name=".Cultural.Pravasana.Filmistaan" />
+        <activity android:name=".Cultural.Pravasana.WarOfWorlds" />
+        <activity android:name=".DebateComp" />
+        <activity android:name=".Cultural.ScriptWriting" />
+        <activity android:name=".Cultural.CreativeWritingComp" />
+        <activity android:name=".Technical.ECE.InnovationChallenge" />
+        <activity android:name=".Technical.ECE.ElectroSprint" />
+        <activity android:name=".Technical.ECE.LeagueofBots" />
+        <activity android:name=".Technical.ECE.DriftODrop" />
+        <activity android:name=".Technical.ECE.CrossRoads" />
+        <activity android:name=".Technical.ECE.GameofRoads" />
+        <activity android:name=".Technical.ECE.Circuitricks" />
+        <activity android:name=".Technical.ECE.TechTonic" />
+        <activity android:name=".Technical.Perpetua" />
+        <activity android:name=".Technical.Vishwaparichay" />
+        <activity android:name=".Cultural.Resonanace.Instrumental" />
+        <activity android:name=".Cultural.Resonanace.EasternBand" />
+        <activity android:name=".Cultural.Resonanace.WesternBand" />
+        <activity android:name=".Cultural.Resonanace.WesternSolo" />
+        <activity android:name=".Cultural.Resonanace.EasternSolo" />
+        <activity android:name=".Technical.Madvertisement" />
+        <activity android:name=".Technical.CarpeDiem" />
+        <activity android:name=".Technical.RuralLaCarte" />
+        <activity android:name=".Technical.BrandAThon" />
+        <activity android:name=".Technical.Conundrum" />
+        <activity android:name=".Technical.ChemicalInd" />
+        <activity android:name=".Technical.CadComp" />
+        <activity android:name=".Technical.BridgeMaking" />
+        <activity android:name=".Cultural.Dance.WesternGroup" />
+        <activity android:name=".Cultural.Dance.EasternGroup" />
+        <activity android:name=".Cultural.Dance.SoloDance" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".Technical.ScamJam" />
+        <activity android:name=".Technical.BizTech" />
+        <activity android:name=".Technical.Sudoku" />
+        <activity android:name=".Technical.Mutex" />
+        <activity android:name=".Technical.Precision" />
+        <activity android:name=".Cultural.Drama.AdSpoof" />
+        <activity android:name=".Cultural.Drama.StageDrama" />
+        <activity android:name=".Technical.CodeIt" />
+        <activity android:name=".Fifa" />
+        <activity android:name=".CSGO" />
+        <activity android:name=".Cultural.Drama.StreetPlay" />
+        <activity android:name=".Team.TeamActivity" />
+        <activity android:name=".PlaneWorkshop" />
+        <activity android:name=".SpecialNightActivity" />
+        <activity android:name=".Day6Activity" />
+        <activity android:name=".Day5Activity" />
+        <activity android:name=".Day4Activity" />
+        <activity android:name=".Day3Activity" />
+        <activity android:name=".Day2Activity" />
+        <activity android:name=".Day1Activity" />
+        <activity android:name=".EventActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseIdInstantService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_name" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/OrangeRed" />
+    </application>
+
+</manifest>

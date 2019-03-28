@@ -1,0 +1,942 @@
+<resources>
+    <string name="app_name">Heritage Utsav</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="imageview_description">imageview</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_event_day1">EventDay1</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_event_day2">EventDay2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+
+    <string name="about">Heritage Utsav is the annual cultural fest of Heritage Institute of Technology, Kolkata. With one of the biggest artist line-up ever this year, Heritage Utsav 2019 is touted to be one of the best college fests of Eastern India. With over 40 technical and cultural events and an overall footfall of 40,000 students spanning 6 days of the fest, Heritage Utsav is something you will be looking forward to. 1st April - 6th April are the dates one must book for a fun filled ride of inter-college competitions and great performances by imminent artists.</string>
+
+
+    <string name="mutex">Mutex, as the name suggests, is a competitive coding event where the members of a team will take turns to solve the problems. It will be an onsite contest which will be held in Heritage Institute of Technology, Kolkata.
+        It will be a team based contest i.e. the participants can take part as a team of 2 members. Single Member Team will not be also allowed.
+        The event will consist of 1 round.
+    </string>
+
+    <string name="mutextextra">
+         The event will consist of 4 questions. The participating teams are required to solve them in 2 hours.
+        The catch is that, at a time, only one member of the team will be allowed to sit on the computer and write the code and the other member will have to wait for his turn. The members will switch after every 15 minutes.
+        It will be an ACM-styled round, meaning that the participants will be ranked on the basis of the score achieved, followed by the time taken to achieve the score (in case of a tie) with a penalty of 10 minutes for every incorrect/wrong submission to a problem.
+        The time taken by a participant is defined as the sum total of time taken to solve the problems.
+        (Eg. If ‘A’ solves the first problem at 10 minutes into the contest and the second problem at 15 minutes into the contest, then total time taken by him to solve both the problems would be 25 minutes. Also, the penalty time will be added to this total time, if any.)
+    </string>
+
+    <string name="codeit1">
+        Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications.
+        Code It is an onsite competitive programming contest which will be held in Heritage Institute of Technology, Kolkata.
+        It will be an individual contest.
+        The event will consist of 2 rounds.
+    </string>
+
+    <string name="codeit2">
+        Round - 1: This round will contain 3 algorithmic questions which the participants will be required to solve in 1.5 hours.
+        It will be an ACM-styled round, meaning that the participants will be ranked on the basis of the score achieved, followed by the time taken to achieve the score (in case of a tie) with a penalty of 20 minutes for every incorrect/wrong submission to a problem.
+        The time taken by a participant is defined as the sum total of time taken to solve the problems.
+        (Eg. If ‘A’ solves the first problem at 1 hour into the contest and the second problem at 1 hour 15 minutes into the contest, then total time taken by him to solve both the problems would be 2 hours 15 minutes. Also, the penalty time will be added to this total time, if any.)
+        This round will serve as a qualifier for Round - 2, that is, the final round.
+        Top 10 participants according to the rank-list will qualify for the final round.
+    </string>
+
+    <string name="codeit3">
+        Round - 2 (Final Round): This round will contain 6 algorithmic questions which the participants will be required to solve in 3 hours.
+        It will also be an ACM-styled round.
+        This round will determine the winners of the event.
+    </string>
+
+    <string name="precision1">
+        Debugging is the art of finding and fixing software coding errors.
+        Precision is an onsite debugging contest which will be held in Heritage Institute of Technology, Kolkata.
+        It will be a team based contest i.e. the participants can take part as a team of at most 2 members. Single Member Team is also allowed
+        The event will consist of 2 rounds.
+    </string>
+
+    <string name="precision2">
+        Round - 1: This round will contain 3 problems along with their solutions filled with bugs. The participating teams will be required to debug them in 30 minutes.
+        It will be an ACM-styled round, meaning that the participants will be ranked on the basis of the score achieved, followed by the time taken to achieve the score (in case of a tie) with a penalty of 5 minutes for every incorrect/wrong submission to a problem.
+        The time taken by a participant is defined as the sum total of time taken to solve the problems.
+        (Eg. If ‘A’ solves the first problem at 10 minutes into the contest and the second problem at 15 minutes into the contest, then total time taken by him to solve both the problems would be 25 minutes. Also, the penalty time will be added to this total time, if any.)
+        This round will serve as a qualifier for Round - 2, that is, the final round.
+        Top 10 participants according to the rank-list will qualify for the final round.
+    </string>
+
+    <string name="precision3">
+        Round - 2 (Final Round): This round will contain 6 problems along with their solutions filled with bugs, which the participants will be required to debug in 1 hour.
+        It will also be an ACM-styled round.
+        This round will determine the winners of the event.
+    </string>
+
+
+    <string name="solodance">
+        1. Time limit for Solo Dance competition is 4 (3+1) minutes. There will be negative points for
+        exceeding the time limit.
+
+        2. Dance music is to be presented in a CD or pen drive strictly and submitted to the stage manager prior to the competition during the registration process. No music to be played from phone.
+
+        3. Organizers are not responsible for the malfunctioning of the CD or pen drive.
+
+        4. Any genre of dance music will be accepted.
+
+        5. Props, to be used by the participants, must be brought by themselves. No props will be provided from college side. Any use of sand, dust or other things that might mess the stage is strictly not allowed .
+
+        6. For stage setting and removal of props, a maximum of 1 minute is allowed.
+
+        7. There is no particular theme; choice of song is open to the participants.
+
+        8. The participants will be judged on their dance form, expression, visual presentation and theme they want to portray.
+
+        9. The decision of Judges will be final and binding.
+    </string>
+
+    <string name="easterndance1">
+        THEME: Any theme of your choice. But a particular theme must be portrayed.
+    </string>
+
+    <string name="easterndance2">
+        FORM: Any Eastern/classical/creative form of dance
+    </string>
+
+
+    <string name="easterndance3">
+
+        1. Time limit for eastern group Dance competition is 12 minutes. (10+2 minutes including stage setting and removal of props)
+
+        2. There will be negative points for exceeding the time limit.
+
+        3. There is no particular theme; choice of song is open to the participants.
+
+        4. Dance music is to be presented in a CD or pen drive strictly and submitted to the stage manager prior to the competition during the registration process. No music to be played from phone.
+
+        5. Props, to be used by the participants, must be brought by themselves. No props will be provided from college side. Any use of sand, dust or other things that might mess the stage is strictly not allowed.
+
+        6. Maximum number of participants is 18; at least there must be 6 participants on stage all time.
+
+        7. All participants should have their valid college ids which have to be presented at the registration desk on the day of event.
+
+        8. Marks will be given on creativity, music, stage presence, teamwork, dance variation, synchronization, entertainment value, crowd response and skills. The decisions of the judges are final.
+
+    </string>
+
+    <string name="westerndance">
+        • Time limit is 12 minutes. (10+2 including stage set up) Negative marking for those who exceed the time limit.
+
+        • Number of active members on stage should be 6 and a team should not exceed 22 people.
+
+        • Dance music is to be presented in a pen-drive, strictly. It has to be submitted to the event manager prior to the event, during registration. No music to be played from phone. It is recommended to have at least two backups.
+
+        • Props, to be used by the participants, must be bought by themselves. Any use of sand, dust or other things which might mess the stage is strictly not allowed.
+
+        • All participants should have their valid college id cards which is to be presented at the registration desk on the day of the event.
+
+        • No cross college teams are allowed. No indecent songs are allowed. Only 1 team per college will be allowed.
+
+        • Marks will be given on creativity, music, stage presence, teamwork, synchronisation, use of stage, crowd response and skills. The decision of the judges will be final.
+    </string>
+
+    <string name="bridge1">
+        This event tests your art of constructing Bridges. Bring out the Engineer inside you and create a marvel out of the raw materials provided.
+        · Team consists of maximum 4 members.
+        · Wooden Popsicle sticks, white glue will be provided on spot.
+        · All other necessary materials (scissors , art paper, blades/other cutting materials, thread, clips etc) may be brought by the participants themselves.
+        · Only wooden Popsicle sticks and white glue can be used to construct the bridges. No other materials are permitted. The wooden sticks can be cut to fit as desired. The amount of sticks used in the bridge is limited only by the Dimensions and Weight restrictions.
+        · Please note the following when you design and build your bridge:
+        · During the strength-test of the bridge, one horizontal bar will be placed on the road deck of the bridge. A downward force will be applied onto the horizontal bar. By placing the bar on the deck in this manner, we ensure that the truss members of the bridge are stressed during the strength test. The builder of the model bridge shall ensure that there is one 3cm X 3cm opening,through the side of the bridge structure, immediately beside the bridge deck, to accommodate the load testing.
+        · The self weight of the bridge must be less than 250gms. If the above mentioned limit is crossed then points will be deducted as per the following: up to 5gms over limit–for each 1gms- 0.5 point will be deducted. 5-10 gms over limit–for each gm, 1 point will be deducted. 10 and above over limit–for each 1gms-1.5points will be deducted.
+        · 2 points will deducted from the score if the bridge deck is narrower than 3.5cm.
+        · 5 points will be deducted for each 1cm (or portion there of) that the bridges height exceeds 18cm.
+        · 2 point will be deducted for each 1cm that the bridges width exceeds 14cm.
+        · 2 point will be deducted for each 1cm that the bridges length exceeds 60cm.
+        · Entries will be disqualified if they use a material other than fevicol and wooden popsicle sticks.
+        · Entries will be disqualified if the bridge length is shorter than 50cm.
+        · Entries will be disqualified if the height of the bridge is less than one popsicle stick.
+        · Entries will be disqualified if there is evidence of heat treating(baking, etc).
+        · Suspension Bridge Model is not permitted in this event.
+        · Entries will be disqualified if the bridge width is shorter than 10cm.
+        · Entries will be disqualified if there is no road on the bridge.
+        · Construction: 4 hours.
+        · Load Test Outcome: Load Testing will be conducted on the event day.
+        · The bridges will be subjected to a Efficiency-test in which a downward force will be applied to the bridge and the force will be gradually increased until the bridge fails. This force will be recorded on the Evaluation Sheet. A bridge is considered to fail when at least one member of the bridge breaks. During the test, the bridge will rest on two blocks placed apart.These blocks are loose and will resist the downward force applied to the bridge. The Strength Factor will be computed using the formula: Efficiency=(applied force)/(self weight of the bridge).
+        · The bridge with the highest Strength Factor will be given a score of 100. All other bridge entries with in the category will be given a score less than 100, based on the ratio of their Strength Factor score to the highest Strength Factor score.
+        · Decisions taken by Judges will be Final.
+    </string>
+
+    <string name="bridge2">
+        · The length of the bridge must be between 50 cm and 60cm at its base. This is critical and the bridge will be disqualified if it is shorter than 50cm and will be penalized if it is longer than 60cm at the base.
+        · The road surface of the bridge must be at least 3cm wide along its entire length (sufficient to allow a match box to pass through).
+        · The overall width of the bridge must be between 10cm and 14cm. This is critical and the bridge will be disqualified if it is wider than 14cm or higher than 18cm. Height of a zero member will not be considered.
+        · The weight of the bridge shall not exceed 250 gms. " Weight means weight, including stick, glue and includes all attachments submitted with the bridge. Penalties will be assessed against overweight bridges.
+    </string>
+
+    <string name="bridge3">
+        · Keep the glued joints cleaned and trimmed. At the joints, be sure to overlap the sticks and wipe off excess glue.
+        · If the edges of the bridge are intended to be straight, use a straight edge while building the bridge.
+        · Try to use some artistic imagination.
+        · Try to use engineering principles, to transfer the force from the middle of the bridge to its supports.
+        · Comply with the Weights and Dimensions restrictions to avoid penalties.
+    </string>
+
+    <string name="cad">
+        Designs on various equipment of chemical engineering can be done in AUTOCAD lab.
+        No of participants per group here will be 1.
+        Students will be asked to draw a 2D model of chemical industrial equipments viz., distillation column, pressure vessel, heat exchanger.
+        Calculators will be allowed.
+        Questions will be provided on spot.
+        Decisions taken by Judges will be final.
+        Participants should finish and submit their drawing within 180 minutes.
+        Points will be deducted if the drawing requirements mentioned in the Problem Statement are not fulfilled.
+        Participants are not allowed to use any resources available over internet and are expected to be honest.
+        Additional points will be given on completing the drawing before the given time period.
+    </string>
+
+    <string name="chemical">
+        Designs on various equipment of chemical engineering can be done in AUTOCAD lab.
+        No of participants per group here will be 1.
+        Students will be asked to draw a 2D model of chemical industrial equipments viz., distillation column, pressure vessel, heat exchanger.
+        Calculators will be allowed.
+        Questions will be provided on spot.
+        Decisions taken by Judges will be final.
+        Participants should finish and submit their drawing within 180 minutes.
+        Points will be deducted if the drawing requirements mentioned in the Problem Statement are not fulfilled.
+        Participants are not allowed to use any resources available over internet and are expected to be honest.
+        Additional points will be given on completing the drawing before the given time period.
+
+    </string>
+
+    <string name="sudoku">
+        It will be a one hour event.
+        There will be only one round of Sudoku.
+        The round will consist of 8 Sudoku.
+        There will be 5 Classic Sudoku and 3 Sudoku variants (odd-even, diagonal and consecutive).
+        Scoring: 
+        Complete solution. 
+        Contestant will get score for each Sudoku which is completely solved before the time is up. Score for each Sudoku will depend on the difficulty of the Sudoku. 
+        Time bonus. 
+        In case, a contestant can completely solve all the Sudokus given in the round before the time is up, he/she will get time bonus score. 
+        Contestants will get 1 point for each second that is left. However a contestant will not get time bonus if all sudokus are not solved completely.
+        In case of a tie, there will be a tie-breaker round.
+        Decision of the coordinator will be regarded as final.
+
+    </string>
+
+    <string name="biztech1">
+        IF YOU KNOW YOUR WAY AROUND SOME OF THE GEEKIEST QUESTIONS AROUND BIZ AND TECH GIGS AROUND THE WORLD, THIS IS ONE FOR YOU. NAVIGATE THROUGH THE WEIRDEST AND THE MOST WORKOUT ABLE QUESTIONS IN TECH AND TAKE HOME COOL STUFF.
+        PARTICIPANTS WILL HAVE TO SIT FOR THE PRELIMS. IF THE TEAMS REACH THE FINALS, 2 MEMBERS WILL BE ON STAGE AT ANY GIVEN ROUND. SWITCHING MEMBERS WILL BE ALLOWED AFTER EACH ROUND.
+    </string>
+
+    <string name="biztech2">
+        RULES TO BE CONVEYED TO THE SELECTED PARTICIPANTS.
+
+        ● ANY NUMBER OF PARTICIPANTS CAN REPRESENT A COLLEGE IN THIS EVENT AS A TEAM.
+
+        ● ORGANISERS RESERVE THE RIGHT TO MODIFY THE RULES OF THE EVENTS AS NECESSARY.
+
+        ● DECISION OF THE QUIZMASTER WILL BE FINAL AND BINDING.
+
+        ● PARTICIPANTS ARE EXPECTED TO HAVE RELEVANT KNOWLEDGE FOR THE EVENT IN HAND.
+    </string>
+
+    <string name="scamjam1">
+        AN EVENT THAT SEES THAT SCAMMING POTENTIAL OF A TEAM AS THEY BATTLE IT OUT IN A WOLF OF WALL STREET SETTING TO MAKE THE HIGHEST AMOUNT OF MONEY AS POSSIBLE. THE TEAMS WILL WORK IN A WALL STREET SIMULATION TO GET THE BIGGEST CHUNK OF PROFITS FOR THEMSELVES.
+        PARTICIPANTS WILL BROKE DEALS THAT WILL SWELL THEIR PROFITS. THEY ARE EXPECTED TO USE UNDERHAND TACTICS TO LAND THE DEALS. THE HIGHEST PROFIT MARGIN AT THE END OF 3 ROUNDS WILL WIN THE CONTEST.
+    </string>
+
+    <string name="scamjam2">
+        RULES TO BE CONVEYED TO THE SELECTED PARTICIPANTS.
+
+        ● ANY NUMBER OF PARTICIPANTS CAN REPRESENT A COLLEGE IN THIS EVENT.
+
+        ● ORGANISERS RESERVE THE RIGHT TO MODIFY THE RULES OF THE EVENTS AS NECESSARY.
+
+        ● DECISION OF THE JUDGES/MODERATOR WILL BE FINAL AND BINDING.
+
+        ● PARTICIPANTS ARE EXPECTED TO HAVE RELEVANT KNOWLEDGE FOR THE EVENT IN HAND.
+    </string>
+
+    <string name="brand1">
+        MARKETING IS NOT PROMOTION. IT IS ALL ABOUT BUILDING A BRAND AND SUSTAINING IT BY CONSTRUCTING THAT PERSPECTIVE WHICH WE WANT OUR CONSUMERS TO HAVE ABOUT US. IT IS MUCH LIKE A NEVER – ENDING GRAFFITI, EACH STEP AND EACH IMPROVISATION YIELDS NEW RESULTS! THE MARKET IS EVER – CHANGING AND SO IS YOUR MARKETING!
+        PARTICIPANTS WILL HAVE TO SOLVE A SET OF CASE STUDIES BY A STIPULATED DATE (TO BE SPECIFIED LATER ON) AND SEND TO ecellhitk@gmail.com.
+
+        LIVE PRELIMS WILL BE HELD SUBSEQUENTLY. 8 TEAMS WILL BE SHORTLISTED FOR THE FINAL ROUND ON THE BASIS OF THEIR PERFORMANCES IN THE PRELIMS.
+    </string>
+
+    <string name="brand2">
+        RULES TO BE CONVEYED TO THE SELECTED TEAMS.
+
+        ● ONLY TWO TEAMS CAN REPRESENT A COLLEGE IN THIS EVENT.
+
+        ● ORGANISERS RESERVE THE RIGHT TO MODIFY THE RULES OF THE EVENTS AS NECESSARY.
+
+        ● DECISION OF THE JUDGES/MODERATOR WILL BE FINAL AND BINDING.
+
+        ● PARTICIPANTS ARE EXPECTED TO HAVE RELEVANT KNOWLEDGE FOR THE EVENT IN HAND .
+    </string>
+
+    <string name="carpe1">
+        PUT NOT ONLY YOUR SKILL ON THE RACK BUT ALSO YOUR PATIENCE AND DEXTERITY. A CALCULATED AND COMPOSED MIND IS WHAT YOU NEED WHEN YOU ARE TASKED WITH THE DREAMS OF THE HUMAN CAPITAL OF AN ENTIRE COMPANY! NAVIGATE THROUGH THE TRICKY TERRAIN OF HR AS YOU DECIDE WHO YOU KEEP MOTIVATED AND WHO DESERVES TO BE INCENTIVIED.
+        PARTICIPANTS WILL HAVE TO SOLVE A SET OF CASE STUDIES BY A STIPULATED DATE (TO BE SPECIFIED LATER ON) AND SEND TO ecellhitk@gmail.com .
+
+        LIVE PRELIMS WILL BE HELD SUBSEQUENTLY. 6 PARTICIPANTS WILL BE SHORTLISTED FOR THE FINAL ROUND ON THE BASIS OF THEIR PERFORMANCES IN THE PRELIMS.
+    </string>
+
+    <string name="carpe2">
+        RULES TO BE CONVEYED TO THE SELECTED PARTICIPANTS.
+
+        ● MAX TWO PARTICIPANT CAN REPRESENT A COLLEGE IN THIS EVENT.
+
+        ● ORGANISERS RESERVE THE RIGHT TO MODIFY THE RULES OF THE EVENTS AS NECESSARY.
+
+        ● DECISION OF THE JUDGES/MODERATOR WILL BE FINAL AND BINDING.
+
+        ● PARTICIPANTS ARE EXPECTED TO HAVE RELEVANT KNOWLEDGE FOR THE EVENT IN HAND .
+    </string>
+
+    <string name="rural1">
+        INNOVATION AND NOVELTY ARE WHAT COMPRISE THE GENIUS OF FERRUCCIO LAMBORGHINI AND MICHELAN GELO ALIKE. ARM YOURSELF WITH THE CANVAS OF CREATIVITY AND PAINT SOMETHING YOUR ANGEL INVESTORS HAVE SEEN NEVER BEFORE!. BUT WITH A SLIGHT CHANGE OF TASTE, TO MAKE IT INTERESTING THIS TIME YOU WILL BE PROVIDED WITH ANY RURAL ITEM LIKE KHADDI, EARHTHEN POT ETC. SHOW YOUR SKILLS ON THE PRODUCT FOR MARKETING.
+        PARTICIPANTS WILL HAVE TO SOLVE A SET OF CASE STUDIES BY A STIPULATED DATE (TO BE SPECIFIED LATER ON) AND SEND TO ecellhitk@gmail.com.
+
+        LIVE PRELIMS WILL BE HELD SUBSEQUENTLY. 8 TEAMS WILL BE SHORTLISTED FOR THE FINAL ROUND ON THE BASIS OF THEIR PERFORMANCES IN THE PRELIMS.
+    </string>
+
+    <string name="rural2">
+        RULES TO BE CONVEYED TO THE SELECTED TEAMS.
+
+        ● ONLY TWO TEAMS CAN REPRESENT A COLLEGE IN THIS EVENT.
+
+        ● ORGANISERS RESERVE THE RIGHT TO MODIFY THE RULES OF THE EVENTS AS NECESSARY.
+
+        ● DECISION OF THE JUDGES/MODERATOR WILL BE FINAL AND BINDING.
+
+        ● PARTICIPANTS ARE EXPECTED TO HAVE RELEVANT KNOWLEDGE FOR THE EVENT IN HAND .
+    </string>
+
+    <string name="mad1">
+        PARTICIPANTS WILL BE MAILED A SPECIFIC AD CAMPAIGN OF A PRODUCT/COMPANY AND THEY WILL HAVE TO GIVE A NOVEL SPIN ON IT, MAKING IT AS QUIRKY, WEIRD AND FUNNY AS POSSIBLE.
+        PARTICIPANTS WILL HAVE TO SIT FOR THE PRELIMS. IF THE TEAMS REACH THE FINALS, 2 MEMBERS WILL BE ON STAGE AT ANY GIVEN ROUND. SWITCHING MEMBERS WILL BE ALLOWED AFTER EACH ROUND.
+    </string>
+
+    <string name="mad2">
+        RULES TO BE CONVEYED TO THE SELECTED PARTICIPANTS.
+
+        ● ANY NUMBER OF PARTICIPANTS CAN REPRESENT A COLLEGE IN THIS EVENT AS A TEAM.
+
+        ● ORGANISERS RESERVE THE RIGHT TO MODIFY THE RULES OF THE EVENTS AS NECESSARY.
+
+        ● DECISION OF THE QUIZ MASTER WILL BE FINAL AND BINDING.
+
+        ● PARTICIPANTS ARE EXPECTED TO HAVE RELEVANT KNOWLEDGE FOR THE EVENT IN HAND .
+    </string>
+
+    <string name="easternband1">
+        1.The Band must comprise a minimum of 3 members and a maximum of 10 members.
+
+        2.Bands have to arrange for their own instruments. Drumset, microphones and
+
+        Adequate number of cables to be provided.
+
+        3.Time–10+2minutes
+
+        4.Marks will be deducted for exceeding time limit.
+
+        5.Bands will be allowed to perform on the basis of first-cum-first-serve registration.
+
+        6.Cross college bands are allowed.
+
+    </string>
+
+    <string name="easternsolo">
+        1.Time:5+1minutes
+        2.Backing track/Only 1 Instrument allowed.
+        3.Backing track cannot have any vocals.
+        4.Backing track to be provided to the organizers during the registration.
+        5.Use of objectionable words prohibited strictly.
+        6.Language has to be of Indian origin.
+        7.Participants to be shortlisted.
+    </string>
+
+    <string name="westernsolo">
+        1.Time:5+1minutes
+        2.Backing track/Only 1 Instrument allowed.
+        3.Backing track cannot have any vocals.
+        4.Backing track to be provided to the organizers during the registration.
+        5.Use of objectionable words prohibited strictly.
+        6.Language has to be English.
+        7.Participants to be shortlisted ,20 Maximum.
+    </string>
+
+    <string name="westernband">
+
+        1.The Band must comprise a minimum of 3 members and a maximum of 6 members.
+        2.Only use of English language is allowed.Use of objectionable language strictly prohibited.
+
+        3.Time–12+3minutes
+
+        4.Marks will be deducted for exceeding time limit.
+
+        5.Covers are allowed.However,OCs will carry extra credit.
+
+        6.Bands will be allowed to perform on the basis of first-cum-first-serve registration.
+
+        7.Cross college bands are allowed.
+    </string>
+
+
+    <string name="instru">
+        1.Time-4+2 minutes.
+        2.Marks will be deducted for exceeding time limit.
+        3.Drums are not allowed due to arrangement constraints.
+        4.Two members max allowed for a single performance(i.e.,solo or duet). Each participant may play more than one instrument.
+        5.Backing track not allowed.
+        6.Coordinators will shortlist the final participants depending on the number of registrations(max15).
+    </string>
+
+    <string name="adspoof">
+        TIME LIMIT:  5+2  minutes.
+        Cast Limit : Minimum – 2.
+        Maximum- No limit.
+        Products- To be decided and given to the respected colleges after registration.
+        8 teams to be allowed.
+        No cross college.
+    </string>
+
+    <string name="stagedrama">
+        TIME LIMIT: 25+3 minutes ( Including stage setup and clearance)
+        CAST LIMIT: 15+2(Including light and sound console)
+                 Minimum- 3+2(Including light and sound console)
+        THEME: Open.
+        No props will be provided by the college.4 chairs and 2 tables are to be provided by the college. In case of requirement for extra chairs or tables, the representatives must inform the college beforehand.
+        Exceeding the allotted time will lead to disqualification.
+        No use of fire, water, explosives or any other harmful substances.
+        Languages used for the play can be in Hindi, Bengali or English.
+        Any sort of abuse or vulgarity in speech is strictly prohibited.
+         Usage of narcotics like drugs, alcohol or cigarettes is not allowed. No promotion of drugs or other hazardous elements.
+        Scripts to be original.
+        8 teams to be allowed.
+        No cross college teams allowed.
+    </string>
+
+    <string name="streetplay">
+        TIME LIMIT: 13+2 minutes.
+        CAST LIMIT: 20+2(Including musicians)
+                               Minimum – 5+2
+        THEME: Open.
+        10 teams only are allowed.
+        Participants are required to bring their own props. T
+        Exceeding the allotted time will lead to deduction of points.
+        Languages used may be in Hindi, Bengali or English.
+        Promotion of any narcotics like drugs, alcohol or cigarettes is strictly prohibited. Use of racist, sexist or any offensive dialogues will not be entertained.
+        There shall be no use of water, fire , explosives or any harmful substances. Usage of such things will lead to disqualification.
+        No cross college teams allowed.
+    </string>
+
+    <string name="vishwa">
+        a)A team of two will participate.
+        b)Participation charge – Rs. 100 per team.
+        c)Prize money worth Rs. 4500/- (1st – 2000/-, 2nd – 1500, 3rd – 1000/-).
+        d)Prelims will be conducted prior to the final event as a screening test.
+        e)Questions will be based on both natural and mathematical sciences.
+        f)Quiz master reserves the right of awarding marks.
+        g)The event is open to all students from science and engineering disciplines.
+        h)Every participant (inclusive of prelims) will receive participation certificate.
+    </string>
+
+    <string name="perpetua">
+        a)A team can have 1 to 4 members.
+        b)Participation charge: Rs. 200/- per team.
+        c)Prize money worth: Rs. 6000/-(1st – Rs. 3000/-, 2nd – Rs. 2000/-, 3rd – Rs 1000).
+        d)The idea of the model should be innovative, where it is desirable that they pertain to prevalent global challenges.
+        e)Interdisciplinary approaches are welcomed.
+        f)Poster and model needs to be made and brought by the participants itself. Poster size should be 1m x 1m.
+        g)Marking will be based on the innovative and pragmatic aspect of the model.
+        h)The event is open to all students from science and engineering disciplines.
+        i)Every participant gets a participation certificate.
+    </string>
+
+    <string name="conundrumd">
+        A General Quiz by the official Quiz Club of HIT-K, this event is about delving into the breadths and depths of various fields such as Art, Literature, Cinema, Politics, Technology and many more.
+        The Quiz will be conducted in two rounds: A written preliminary round followed by the finals.
+        If youre under 25, feel free to drop by at Swami Vivekananda Auditorium on April 2nd, Atmadweep would love to host you.
+        Registrations begin at 12:00 pm.
+    </string>
+
+    <string name="conun1">
+        Rules and regulations as follows:
+        • Teams of 3 or fewer.
+        • Top-8 teams qualify for the finals.
+        • Cross college team allowed.
+        • A valid ID card on the event day is a must.
+        • No registration fees.
+    </string>
+
+    <string name="inno1">
+        A platform to showcase the innovation skills of an individual or a group. The main aim is to formulate the innovation skills to solve real life problems.
+        All participants must carry their college IDENTITY CARDS.
+        Any kind of misbehaviour with the judges or volunteers will lead to direct disqualification.
+        Team of maximum 4 members are allowed.
+        Participants are requested to carry their laptop in case of presentation. Also a pen-drive containing the presentation.
+        A decent dress code is welcomed.
+    </string>
+
+    <string name="inno2">
+        Innovative extent.
+        Real life application.
+        Cost effectiveness.
+        Usefulness in society.
+        Representation skills.
+    </string>
+
+    <string name="electro1">
+        An Electronic Treasure hunt competition. The motive of the competition is to build a circuit and the different components of the circuit would be hidden all over the colleges, the participants would have to solve clues and gather up components to build up the main circuit.
+        A Maximum of 4 members are allowed per team.
+        The members must bring their respective college Identity cards.
+        No person should be a member of two teams.
+        Any act of misbehaviour with the judges or the volunteer will lead to direct disqualifications.
+        Decision of the coordinators will be final and binding.
+        If any team is having any problem as far as the event is concerned, they must contact the event administrator whose contact will be given in the clue book.
+    </string>
+
+    <string name="electro2">
+        Firstly, the teams will be marked on the basis of time of completion.
+        The Total arena-based adventure will be marked on the basis of 100 points which are as follows:
+        1.Completing each and every clue will fetch you 1 point.
+        so, there will be total 15 points for collecting all the clues.
+        2.Completing each of the sub circuits will fetch 20 points. For completion of the total circuits will fetch the team 60 points
+        3.The 15 points will be upon the precision-based output of each of the stages.
+        There will be deduction of 1 point if any team avail any circuit clue.
+    </string>
+
+    <string name="drift1">
+        Build a bot (wired/wireless) that is capable of traversing the arena manually bypassing the hurdles in its path.
+        Compete against a Rival bot and carve your path to Glory.
+        A maximum of 4 members are allowed per team.
+        The members must bring IDENTITY CARDS of the college.
+        No person should be a member of two teams.
+        No bot can be shared by two teams.
+        The participants will be provided with 220 Volts, 50 Hz standard AC supply.
+        Participants themselves will have to arrange for any other power supply required for their robot.
+        Team cannot tinker with bots during the run.
+        LEGO kits or its spare parts or pre-made mechanical parts are not allowed.
+        Any kind of damage to the arena by the robot will lead to direct disqualification.
+        Any act of misbehaviour or misconduct will lead to direct disqualification.
+        Any decision of the coordinators will be final and binding.
+        Bots will start from the point marked as “START” on the arena.
+        During the knockout rounds, team will be given a time frame, failing to show up at the assigned time will lead to disqualification.
+        Teams are not allowed to question event administrator about any knockout fixture. In that case, team may be disqualified after few warnings.
+        If any team is having any trouble as far as the event is concerned, they are to contact the event administrators.
+        Administrators reserve the right to change/add/remove any of the above rules in case of any ambiguity.
+        Decision of the event administrators will be final and binding.
+    </string>
+
+    <string name="drift2">
+        Maximum allowable dimensions of the bot will be 25cm x 25cm x 25cm with a tolerance of 10%.
+        The maximum weight of the bot should not exceed 2 kg.
+        The robot can be powered on-board or off-board.
+        The potential difference between any two electrical points on the bot must not exceed 18 volts throughout the run.
+        Violation of any rule will lead to disqualification.
+        The arena will be 10-25 metres in length.
+        The length and constituents of the track may keep varying from round to round.
+        The width of the arena will be approximately 100cm.
+        All individual arena parameters are measured under a tolerance level of 10%.
+        There may be some typical bypasses for shorter paths and for following the bypasses properly there might or might not be bonus points.
+        If a robot damages the arena, a penalty might be imposed on the teams overall score. The magnitude of the penalty will depend on the amount of damage caused, and will be decided by the coordinators.
+    </string>
+
+    <string name="cross1">
+        Be an innovator and walk on the lines of change.
+        Grab this opportunity to keep your yourself on the track of excellence
+        as Heritage (in collaboration with IEEE ) presents the event
+        “CROSSROADS” – an autonomous line follower robotics competition .
+        Objective: The objective of this contest is for a robot to follow a black line on a white background, without losing the line, and navigating several 90 degree turns and various checkpoints based on the track . The robot to complete the course in the shortest period of time while accurately tracking the course line from start to finish wins.
+        Event Summary: The lesser the number of attempts to cross a hurdle ,the more the points .At max 3 attempts to cross a certain attempt else point lose or even deduction .
+
+    </string>
+
+    <string name="cross2">
+
+        1.Size and Weight Limits: dimensional and weight limits for robots shall be strictly maintained within the box .
+        2.Course Time: Time is measured from the time the robot crosses the starting line until the time it crosses the finish line. A robot is deemed to have crossed the line when the forward most wheel, track, or leg of the robot contacts or crosses over the line and an IEEE volunteer would keep track of the timings .
+        3.Time Limit: (DEPENDS ON THE TRACK )
+        4.Timekeeping: An IEEE Volunteer with a stopwatch, based on the availability of equipment. In either case the recorded time shall be final.
+        5.Autonomous Control: once a robot has crossed the starting line it must remain fully autonomous, or it will be disqualified.No Manual touch would be given until the team indulges to give it and points would be deducted
+        6.Arena Edges: a robot that wanders off of the arena surface will be disqualified. A robot shall be deemed to have left the arena when any wheel, leg, or track has moved completely off the arena surface.(Must be followed )
+        7.Losing the Line: Any robot that loses the line course must reacquire the line at the point where it was lost, or at any earlier (e.g. already traversed) point.If it had to be bought to the next step then points should be deducted.
+        8.Second Attempt: Any robot that loses the line course and fails to reacquire it will be allowed a single reattempt. The robot must start the course again from the beginning, and if it loses the line course on its second attempt it will be disqualified.This must be followed if the robot malfunctions or goes off track at the first step only.
+        9.Power of IEEE Volunteers : The decisions of all officials
+        regarding these rules and the conduct of the event shall be final.
+        10.Course Specifications: The box size and The track size should be mentioned some time late .
+        11.Extra credit will be provided if the team completes the track before time. The leftover timing will be added as a positive score
+        Awards and certification : Exciting prizes for the top three teams including appreciation certificates for the teams qualifying for the 2nd round and participation certificates for all .
+    </string>
+
+    <string name="game1">
+        About : All terrain robot competition . Robots will have to traverse muddy, sandy , twisty roads, and challenging obstacles to complete the race. Traverse through the Worst of terrains to emerge as the Best.
+
+        A maximum of 4 members are allowed per team.
+        The members must bring IDENTITY CARDS of the college.
+        No person should be a member of two teams.
+        No bot can be shared by two teams
+        The participants will be provided with 220 Volts, 50 Hz standard AC supply.
+        Participants themselves will have to arrange for any other power supply required for their robot
+        Team cannot tinker with bots during the run.
+        LEGO kits or its spare parts or pre-made mechanical parts are not allowed.
+        Any kind of damage to the arena by the robot will lead to direct disqualification.
+        Any act of misbehaviour or misconduct will lead to direct disqualification.
+        Any decision of the coordinators will be final and binding.
+        Bots will start from the point marked as “START” on the arena.
+        During the knockout rounds, team will be given a time frame, failing to show up at the assigned time will lead to disqualification.
+        Teams are not allowed to question event administrator about any knockout fixture. In that case, team may be disqualified after few warnings.
+        If any team is having any trouble as far as the event is concerned, they are to contact the event administrators.
+        Administrators reserve the right to change/add/remove any of the above rules in case of any ambiguity.
+        Decision of the event administrators will be final and binding.
+
+    </string>
+
+    <string name="game2">
+        Maximum allowable dimensions of the bot will be 25cm x 25cm x 25cm with a tolerance of 10%.
+        The maximum weight of the bot should not exceed 2 kg.
+        The robot can be powered on-board or off-board.
+        The potential difference between any two electrical points on the bot must not exceed 18 volts throughout the run.
+        Violation of any rule will lead to disqualification.
+        The arena will contain obstacles in the form of sand, gravel, mud, bumpers, stone chips, marble balls, broken glasses etc.
+        The arena will be 10-25 metres in length.
+        The length and constituents of the track may keep varying from round to round.
+        The width of the arena will be approximately 50cm.
+        The arena will also include obstacles like cliffs, ramps, bridges, bumps, dips, rotating discs,see-saw and steep slopes.
+        Maximum inclination of the inclined planes will not exceed 45 degrees.
+        All individual arena parameters are measured under a tolerance level of 10%.
+        There may be some typical bypasses for shorter paths and for following the bypasses properly there might or might not be bonus points.
+        If a robot damages the arena, a penalty might be imposed on the teams overall score. The magnitude of the penalty will depend on the amount of damage caused, and will be decided by the coordinators.
+    </string>
+
+    <string name="circuit1">
+        Teams should comprise of min 1 member to max 4 members.
+        There will be 2 rounds in total. The first round will be of 2.5 hrs and the 2nd one for 2 hrs.
+        Round 1:
+        Comprises of 3 problems. The teams will be provided with the necessary pin diagrams but they have to select the components first.
+        Round 2:
+        Those teams who have cleared round one will be given 1 problem to solve within 2 hrs. No diagram or hint will be provided here too unless the teams choose their components.
+    </string>
+
+    <string name="circuit2">
+        1.Participants must bring their college ID card with them.
+        2.No participant should bring any component of their own.
+        3.Power supply is to be provided by us in the labs. No participant should bring batteries or any such kinds of things.
+        4.In case of a tie breaker, the decision of the judges will prevail finally.
+        5.Participants should not misplace any component in the lab. If any participant is found doing so, that entire team will be disqualified.
+        6.After each round, participants are requested to submit their components in their respective pre-assigned places/boxes.
+        7.Coordinators may change any of the above rules depending upon the situation at that time. In such a case, participants are requested to abide by the new rules.
+    </string>
+
+    <string name="techtonic1">
+        We,the IEEE -EDS,student chapter of Heritage gladly present you TECHTONIC, a thrilling technical quiz contest that will blow your minds. Participate to feel the chill from topics that are so easy that you never thought you would be biting nails to answer them. So prepare yourself for some bizarre tech questions.
+    </string>
+
+    <string name="techtonic2">
+        PRELIMS(All teams):
+        40 questions on bizarre tech questions that will make you think twice before answering every question.
+        FINALS(10 teams):
+        Rounds:
+        1.Guessing game.
+        2.Audio Visual.
+        3.Buzzer round.
+    </string>
+
+    <string name="league1">
+        1.A minimum of 2 members and a maximum of 4 numbers are allowed per team.
+        2.The members must bring IDENTITY CARDS of the college.
+        3.No person should be a member of two teams and no two teams can share bot.
+        4.The participants will be provided with 220V, 50Hz standard AC supply. Participants can also use on board power supplies.
+        5.Teams cannot alter bot configuration once registered on spot.
+        6.Pre-made mechanical parts or kits (ex. LEGO) are not allowed.
+        7.Attack on opponent’s bot, destructive weapons, any act of misbehavior or misconduct and damage to the arena by any bot or any team will lead to direct disqualification.
+        8.Decision of coordinators will be final and binding.
+        9.Rules, subject to change will be notified prior to the event.
+    </string>
+
+    <string name="league2">
+        Dimensions : 25cm*25cm*25cm (with a tolerance of 20%)
+        Weight : 4Kg(max)
+        Voltage : The potential difference of the bot must not exceed 20 Volts at any point of time.
+        The bot may be wired or wireless. (not Autonomous)
+    </string>
+
+    <string name="debate">
+        ●Both the members of a team speak for either FOR or AGAINST the topic.
+        ●In the prelims round, the speaking time for each speaker in a team will be (3 + 1) minutes. 3minutes for speaking and 1 min for rebuttal (questions to be asked by the co-participants in the room).
+        ●1 team* per college is allowed to participate in the event.
+        ●The event has a team cap so teams will be selected on a first come first basis.
+        ●The debate will be divided into two rounds- Prelims and Finals.
+        ●A list of motions for the prelims will be released one day before the event date i.e 31st March 2019 at 12 noon.
+        ●Reporting time for participants for prelims: 1st April, 12 noon.
+        ●The top 4 teams will be selected for the finals round. The motion for the finals round will be given on the day of the event itself.
+        ●Reference of any kind of written material while debating is prohibited.
+        ●Use of unparliamentary language will not be entertained.
+        ●Only registered members are allowed to debate.
+        ●Certificates and prizes to be given to the finalists.
+        ●Modification and changes by the organisers will be final and binding.
+    </string>v
+
+
+    <string name="war1">
+        •The event consists of two rounds.
+        •The first round will be a Preliminary Round. The second round will be the Final Round.
+        •Preliminary round:
+        oThe theme of the event is will be declared 24 hours before the competition on the website.
+        oMaximum time limit for each debater is 3+1 minutes (4 min speech + 1 minute for counter question).
+        o4 teams will qualify for the Final Round.
+        •Final round:
+        oThe theme will be declared On the spot.
+        oMaximum time limit for each debater is 4+1 minutes (5 min speech + 1 minute for counter question).
+
+        Use of internet is strictly prohibited.
+        Anyone using unfair means shall be disqualified immediately.
+    </string>
+
+    <string name="war2">
+        1. Pravasana will appoint a judge/ judges for the contest.
+        2. The judging panel shall assess and determine the winner.The results and the winners will be announced on the website.
+        3. The decision of Pravasanas judging panel will be final and binding on all Participants in respect to all matters relating to the Contest.
+    </string>
+
+    <string name="filmist1">
+        •The quiz will consist of a prelims and finals.
+        •8 teams will qualify to the finals.
+        •The teams will be of 2 members each.
+        •The prelims will be a written round of 20 questions  6 stars tiebreaker.
+        •The finals will consist of 40 questions with 4 different rounds consisting of normal pounce and bounce, written round and along connect.
+        Use of internet is strictly prohibited.
+        Anyone using unfair means shall be disqualified immediately.
+    </string>
+
+    <string name="filmist2">
+        1. Pravasana will appoint a judge/ judges for the contest.
+        2. The judging panel shall assess and determine the winner.The results and the winners will be announced on the website.
+        3. The decision of Pravasanas judging panel will be final and binding on all Participants in respect to all matters relating to the Contest.
+    </string>
+
+    <string name="chaya">
+        Movies have and will always be a crucial part in not just shaping a person but also an era as well. Acknowledge the various eras. Welcome to the Movie Screenings.
+    </string>
+
+    <string name="baar">
+
+        1.Participation Certificates shall be provided to all participants.
+        2.Top 3 or, 2(depending on the event) rank holders would be awarded Certificates of Achievements
+        3.Other exciting prizes to be won ( to be declared on the day of the event ).
+        4.Entries for photo-story competition(should complete online registration as well) and Exhibition should be mailed directly to pravasanaheritage@gmail.com with proper Subject(s).
+        5.Reach the venue of the event at least 20-30 minutes before the time mentioned.
+    </string>
+
+    <string name="choto1">
+        All people involved in the making of the films should be students in under graduate/post graduate courses. However, actors can be of any age.
+        A director can submit any number of films.
+        Maximum time limit of the films is 18+2 minutes (including credits).
+        Animation films are allowed.
+        The film must be provided with English subtitles if the language in the film is not English.
+        The participants must be present for the final round when the films will be screened.
+        The decision of the organizers shall be final and binding on all contestants.
+        Any film containing explicit or offensive content would be disqualified.
+        Short films that are submitted must be the entrant’s original work and shall not infringe on any copyrights or any other rights of any third parties.
+        Contestants agree that they have obtained all required permissions regarding music, sound and/or images presented in their short film. By entering the competition, the entrant agrees that the Heritage Utsav will not be held liable for any copyright infringements perpetrated by you or your short film.
+    </string>
+
+    <string name="choto2">
+        Preferably the movie should be playable in VLC Media Player. We will not be playing it in DVD players.
+        The movie should have a minimum resolution of 720p. However, we prefer a 1080p version for best results.
+        The movie should be submitted as a Drive link.
+        A photocopy of the college-ID card of the director must be submitted along with the movie.
+        Last date of submission is 2nd April, 2019.
+    </string>
+
+    <string name="kahaani1">
+        oThe theme of the competition is open.
+        oNo teams are allowed.
+        oThe contest is for online submission only. Mail it to pravasanaheritage@gmail.com with subject ‘Kahaani’ entry.
+        oAny camera such as DSLR, Mirrorless, Point and Shoot or Mobile phones are allowed.
+        oPhotos submitted must be at least 8×10 inches. Photos must be in jpeg format.
+        oEach contestant may submit a maximum of 6 images for the contest.
+        oYou are required to provide a title for the story and description for each image submitted.
+        oBasic editing, including color enhancement, use of filters, and cropping of the photos is acceptable.
+        oAdvanced editing used to create illusions, deceptions and/or manipulations, and the adding and removing of significant elements within the frame is prohibited.
+        oIf Watermarks are used then it should be placed at the bottom right corner of the image.
+        oSubmitted photos must be original, created and/or taken by the contestant. It must not contain any materials owned or controlled by a third party for which you have not obtained a license, must not infringe the copyright, trademark, moral rights, rights of privacy/publicity or intellectual property rights of any person or entity.
+        oPravasana respects photographers’ copyrights and copyrights shall remain vested with the creator of the image. Upon making the submission, you grant Pravasana, worldwide, non-exclusive, royalty free, sub-licensable right and license to use, publish, reproduce, display, perform, adapt, create derivative works, distribute, have distributed, print, in whole or in part, in any form, in all media forms now or hereafter known, to promote the contest, image, the photographer or for editorial or educative use.
+        oThe Photographer will be credited wherever the image is used.
+    </string>
+
+    <string name="kahaani2">
+        oPravasana will appoint a judge/ judges for the contest.
+        oThe judging panel shall assess and determine the winning Photos. The results and the winners will be announced on the website.
+        oThe decision of Pravasanas judging panel will be final and binding on all Participants in respect to all matters relating to the Contest.
+        oPravasana reserves the right to call for original JPEG or RAW files with unchanged EXIF for the purpose of authentication. An image maybe disregarded if this information cannot be provided.
+    </string>
+
+    <string name="shutteri">
+        1.Each person has to participate individually.
+        2.Registration is free for everyone.
+        3.This contest is open for online submissions only, use #pravasanaheritage and upload  it on Instagram or mail it to pravasanaheritage@gmail.com with subject “Onspot photography- Entry”.
+        4.Click pictures within the given time and inside the campus.
+        5.Any camera such as DSLR, Mirrorless, Digital, GoPro or Mobile phones are allowed.
+        6.Photos submitted must be at least 640 pixels on the shorter side. Images should be minimum of  2 MB size. Photos must be in JPEG format.
+        7.You may submit maximum of 3 entries for the contest.
+        8.You are required to provide a unique title and description for each image submitted.
+        9.All submitted photos must contain the original EXIF metadata information. However there must be no border(s), logo(s), copyright marks, identifying marks, or any other visible references and or marks on the image.
+        10.Basic editing, including colour enhancement, the use of filters, and cropping of the Photo(s) is acceptable, provided any such editing does not affect the authenticity and or genuineness of the Photo(s).
+        11.Advanced editing used to create illusions, deceptions and or manipulations, and the adding and removing of significant elements within the frame is prohibited.
+        12.Every image uploaded is subject to a moderation process before it becomes visible on the contest page. Pravasana reserves the right to assess and disregard any submitted photo at its discretion.
+        13.Photos that portray or otherwise include inappropriate and or offensive content, including provocative nudity, violence, human rights and or environmental violation, or any other contents deemed to be contrary to the law, religious, cultural and moral traditions and practices of India, are strictly prohibited and will be immediately discarded.
+        14.A participant who submits any such photos may be immediately disqualified, subject to Pravasana’s discretion.
+    </string>
+
+    <string name="shutteri2">
+        1. Pravasana will appoint a judge/ judges for the contest.
+        2. The judging panel shall assess and determine the winning Photos. The results and the winners will be announced on the website.
+        3. The decision of Pravasana’s judging panel will be final and binding on all Participants in respect to all matters relating to the Contest.
+        4. Pravasana reserves the right to call for original JPEG or RAW files with unchanged EXIF for the purpose of authentication. An image maybe disregarded if this information cannot be provided.
+    </string>
+
+    <string name="kya">
+        1. Participants will compete individually.
+        2. A short film of around 20 minutes shall be shown.
+        3. 1 hour shall be given to write a review of the film shown.
+        4. Review should not exceed 700 words.
+        5. Reviews should be authentic or the participant shall be disqualified.
+        Use of internet is strictly prohibited.
+        Anyone using unfair means shall be disqualified immediately.
+    </string>
+
+    <string name="kya2">
+        1.Pravasana will appoint a judge/ judges for the contest.
+        2.The judging panel shall assess and determine the winner.The results and the winners will be announced on the website.
+        3.The decision of Pravasanas judging panel will be final and binding on all Participants in respect to all matters relating to the Contest.
+    </string>
+
+    <string name="shob">
+        The competition will start from 1:30 pm. Participants are to report to the venue by 1pm.
+        The duration of the competition is 2 hours.
+        Drawing paper will be provided to the participants.
+        Each participant has to bring their own colours and other accessories needed.
+        The theme of the painting will be given 24 hours before the contest begins on the website.
+        Participants are to bring their college ID cards and produce them for registration.
+        Use of internet is strictly prohibited.
+        Anyone using unfair means shall be disqualified immediately.
+    </string>
+
+    <string name="shob2">
+        1. Pravasana will appoint a judge/ judges for the contest.
+        2. The judging panel shall assess and determine the winner.The results and the winners will be announced on the website.
+        3. The decision of Pravasanas judging panel will be final and binding on all Participants in respect to all matters relating to the Contest.
+    </string>
+
+    <string name="fashion1">
+        Minimum number of participants 12.
+        Maximum number of participants: 18.
+        Time: 7+3 mins.
+        2 mins for setup.
+        Registration should be done by 31st march,2019.
+        Tracks should be submitted 3hrs prior to the event.
+        Negative marking if participants exceed time limit.
+        No vulgar actions,smoking,alcohol or fire should be used on stage.
+        Extremely revealing clothes will result in immediate disqualification.
+        Green rooms will be alotted for the participants.
+        Decision of the Judges will be final and binding.
+    </string>
+
+    <string name="fashion2">
+        Sequence and Coordination.
+        Theme implementation.
+        Walk and Expression.
+    </string>
+
+    <string name="flip1">
+        A maximum of 4 members are allowed per team.
+        The members must bring IDENTITY CARDS of the college.
+        No person should be a member of two teams.
+        No model can be shared by two teams
+        The participants will be provided with launcher if informed before hand
+        Any kind of damage to the arena by the robot will lead to direct disqualification
+        Any act of misbehaviour or misconduct will lead to direct disqualification.
+        Any decision of the co-ordinators will be final and binding
+        Rockets will launch from the point marked on the arena.
+        If any team is having any trouble as far as the event is concerned, they are to contact the event administrators.
+        Administrators reserve the right to change/add/remove any of the above rules in case of any ambiguity.
+        Decision of the event administrators will be final and binding.
+    </string>
+
+    <string name="flip2">
+        Maximum allowable voulme of the bottle can be 2 litres.
+        Violation of any rule will lead to disqualification.
+        Distance from launch point will be measured , and degree of veering to the left or right will be judged.
+        The arena will be 10-25 metres in length.
+        All individual arena parameters are measured under a tolerance level of 5%.
+    </string>
+
+    <string name="flip3">
+        This event will be point based.
+The rocket has to be lauched from a specific LAUNCH point.
+Points will be awarded based on distance covered.
+Points will be deducted based on Degree of movement from launch direction.
+    </string>
+
+
+    <string name="xwings1">
+         • All participants have to reach the venue 15 minutes prior to the start time.
+        • Each team can have max 4 members. Students from different institutes can form a team. Each member must have their respective institutes identity card on them.
+        • Arena related changes like positioning will be done by organizers.
+        • All participants should cooperate with organizers in all respects.
+    </string>
+
+    <string name="xwings2">
+        •The drone should be in the range of 330mm-550mm in diameter.
+        •The drone must not be automated and must be controlled manually.
+        •Participants have to control their drone and cross the obstacles in the path and complete the circuit.
+        •A maximum of 15 min. will be provided to complete the circuit.
+        •In crossing obstacles participants will be given some points.
+        •Participant with highest score will be the winner.         •In case of a tie participant completing the circuit in lesser time will be the winner.
+        •The decision of the judges will be final and no one can object their decision.
+        •Use of GPS strictly not allowed.
+        •Use of Altitude locker strictly not allowed.
+    </string>
+
+    <string name="fifa">
+        FIFA:
+        1. EA SPORTS FIFA 19 will be the game of choice.
+        2. Kick-Off mode will be played by the participants against each other.
+        3. All matches will be a BO1 elimination match.
+        4. Half Length will be of 6 mins.
+        5. You are to bring your own controller if you play FIFA with a controller. (PlayStation controllers are not supported by Windows by default, so PS controller will not be allowed)
+        6. Each player will be allowed a maximum of 3 pauses per match to set their substitutions or custom tactics. Pauses can only be taken when the ball is out of play.
+        7. Maximum of 3 substitutions allowed per match.
+        8. Camera settings will be set to default for both players.
+        9. Defending Tactics will be set to Tactical as followed in EA tournaments.
+        10. In case of any dispute, the decision of the organizer is final.
+    </string>
+
+    <string name="csgo">
+        1. All matches except the finals will be a BO1 elimination match. The finals will be a BO3. All matches will have overtime enabled.
+        2. Before every match a map veto will be done. Only the team captains can take part in the veto in the presence of an organizer.
+        3. Bring your own equipment (Keyboard, Mouse, Headphones and Mousepads). We won’t be responsible for providing any equipment.
+        4. You are allowed to use your own config files. But if your config contains any scripts or macros that provides an unfair advantage, your team will be disqualified effective immediately and your opponent will be given a walkover.
+        5. Each team will be allowed at max 4 tactical timeouts in one match.
+        6. No racist or abusive comments during the match in all-chat window. If discovered, your team will be disqualified immediately from the tournament.
+        7. No external drives will be allowed to be attached to the PCs.
+        8. In case of any dispute, the team captain will be your representative to the organizers and the decision of the organizer is final.
+    </string>
+
+    <string name="sixty">
+        1.This event will allow only single participant per performance.
+        2.Participants using a track should submit it 1 hour prior to the event.
+        3.Exceeding the time limit will result in negative marking.
+        4.Any use of Alcohol or Smoking is prohibited.
+        5.Result of judges is final.
+    </string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "506254159490",
+    "firebase_url": "https://heritage-utsav.firebaseio.com",
+    "project_id": "heritage-utsav",
+    "storage_bucket": "heritage-utsav.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506254159490:android:e4d79d1f8e4d6ab6",
+        "android_client_info": {
+          "package_name": "com.college.heritageutsav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506254159490-uvm9mgibt2ngod8ep4a1i9cndp2rrmi6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.college.heritageutsav",
+            "certificate_hash": "e1cb9ad70223d4fdc9e936517512556ac76fceee"
+          }
+        },
+        {
+          "client_id": "506254159490-eo1vk810fn3m5iq8cu6e7q36pdpemitv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5R_iKtDQ1X5NRMFzMWgfek1XVvJQ19Xw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506254159490-eo1vk810fn3m5iq8cu6e7q36pdpemitv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

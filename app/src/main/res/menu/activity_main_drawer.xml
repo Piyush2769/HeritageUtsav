@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_registration"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Registration" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_special_nights"
+            android:icon="@drawable/ic_whatshot_black_24dp"
+            android:title="Special Nights" />
+        <item
+            android:id="@+id/nav_sponsors"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Sponsors" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:iconTint="@color/Red"
+            android:title="Utsav Team" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:iconTint="#fff"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
